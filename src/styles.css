@@ -24,17 +24,8 @@ body {
   letter-spacing: 5px;
   animation: text 3s 1;
   margin-top: 100px;
+  animation-delay: 1500ms;
 }
-
-.container {
-  margin: 0 auto;
-  max-width: 600px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-content: center;
-}
-
 @keyframes text {
   0% {
     color: #e75507;
@@ -46,6 +37,16 @@ body {
     letter-spacing: 5px;
   }
 }
+
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+}
+
 .information-box {
   background-color: rgba(255, 250, 249, 0.8);
   padding: 20px;
