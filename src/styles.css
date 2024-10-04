@@ -1,0 +1,110 @@
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/146/252/original/pexels-roman-odintsov-11025197.jpg?1728039388");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.title {
+  font-size: 27px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  animation: text 3s 1;
+  margin-top: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+}
+
+@keyframes text {
+  0% {
+    color: #e75507;
+  }
+  30% {
+    letter-spacing: 15px;
+  }
+  85% {
+    letter-spacing: 5px;
+  }
+}
+.information-box {
+  background-color: rgba(255, 250, 249, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.poem {
+  background-color: rgba(255, 250, 249, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  color: #e75507;
+  margin: 20px;
+  height: 300px;
+}
+
+input[type="text"] {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/146/252/original/pexels-roman-odintsov-11025197.jpg?1728039388");
+  min-width: 300px;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+input[type="submit"] {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/146/252/original/pexels-roman-odintsov-11025197.jpg?1728039388");
+  color: white;
+  padding: 9px 20px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.submit:hover {
+  cursor: pointer;
+  background: #e75507;
+}
+
+a {
+  color: #b04d14;
+  font-weight: 700;
+  text-shadow: 0 0 10px white;
+}
+
+footer {
+  margin-bottom: 30px;
+}
+a:hover {
+  cursor: pointer;
+  color: #ffd728;
+}
