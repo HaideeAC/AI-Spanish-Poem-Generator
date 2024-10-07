@@ -24,7 +24,7 @@ body {
   letter-spacing: 5px;
   animation: text 3s 1;
   margin-top: 100px;
-  animation-delay: 1500ms;
+  animation-delay: 1000ms;
 }
 @keyframes text {
   0% {
@@ -51,7 +51,7 @@ body {
   background-color: rgba(255, 250, 249, 0.8);
   padding: 20px;
   border-radius: 10px;
-  margin: 20px;
+  margin-bottom: 20px;
 }
 
 .poem {
@@ -59,7 +59,6 @@ body {
   padding: 20px;
   border-radius: 10px;
   color: #e75507;
-  margin: 20px;
   height: 300px;
 }
 
