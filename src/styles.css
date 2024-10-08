@@ -68,6 +68,20 @@ body {
   align-items: center;
 }
 
+.hidden {
+  display: none;
+}
+
+.blink {
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
 input[type="text"] {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/146/252/original/pexels-roman-odintsov-11025197.jpg?1728039388");
   min-width: 300px;
