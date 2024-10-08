@@ -2,7 +2,7 @@ function displayPoem(response) {
   new Typewriter("#poem", {
     strings: response.data.answer,
     autoStart: true,
-    delay: 100,
+    delay: 80,
     pauseFor: 1500,
     cursor: "",
   });
@@ -13,7 +13,7 @@ function generatePoem(event) {
   let apiKey = "9453eocfb302f861c59f1e9f04d3bta4";
   let apiContext =
     "You are a bilingual poet equally fluent in English and Spanish, you would get words in English, translate them to Spanish and write a poem with them";
-  let apiPrompt = `Generate a poem in Spanish using the following topic: ${topic.value}`;
+  let apiPrompt = `Generate a poem in Spanish using the following topic: ${topic.value}, don't use more than 150 words`;
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${apiPrompt}&context=${apiContext}&key=${apiKey}`;
 
   axios.get(apiUrl).then(displayPoem);
